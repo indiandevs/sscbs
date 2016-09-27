@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/login"
+            android:title="Login"
+
+            />
+
+        <item
+            android:id="@+id/nav_time_table"
+            android:icon="@drawable/timetable"
+            android:title="Time Table" />
+
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/courses"
+            android:title="Courses" />
+
+        <item
+            android:id="@+id/nav_cloud"
+            android:icon="@drawable/cloud"
+            android:title="Cloud" />
+
+
+        <item
+            android:id="@+id/nav_visit_website"
+            android:icon="@drawable/home"
+            android:title="Visit Website" />
+
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/about"
+            android:title="About US" />
+
+
+        <item android:title="Extras"
+
+            >
+            <menu>
+                <item
+                    android:id="@+id/nav_devs"
+                    android:icon="@drawable/dev"
+                    android:title="About Developers" />
+            </menu>
+        </item>
+
+
+    </group>
+
+
+</menu>
